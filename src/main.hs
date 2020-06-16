@@ -9,6 +9,8 @@
 import Data.List
 import System.IO
 import DataTypes
+import Maths
+import Lists
 
 main = do
     --putStrLn "What's your name: "
@@ -17,5 +19,11 @@ main = do
 
     let _data_type_examples = data_type_examples
     _data_type_examples
+
+    let _maths_examples = maths_examples
+    _maths_examples
+
+    let _list_examples = list_examples
+    _list_examples
 
     putStrLn "Compete!"
