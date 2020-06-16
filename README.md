@@ -24,7 +24,12 @@ ghci.exe
 To compile:
 
 ```
-ghc helloworld.hs
+ghc main.hs
 ```
 
 ## Learning
+
+Mostly taken from [Derek Banas' video](https://www.youtube.com/watch?v=02_H3LjqMr8&list=PLGLfVvz_LVvSX7fVd4OUFp_ODd86H0ZIY&index=24&t=0s) and [Learn You a Haskell for Great Good!](https://www.youtube.com/watch?v=02_H3LjqMr8&list=PLGLfVvz_LVvSX7fVd4OUFp_ODd86H0ZIY&index=24&t=0s)
+
+[main.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/main.hs)  
+[DataTypes.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/DataTypes.hs)  
