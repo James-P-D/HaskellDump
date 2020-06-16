@@ -31,13 +31,16 @@ list_examples = do
     let evenMorePrimes = morePrimes2 ++ [31]
     putStrLn $ "evenMorePrimes = " ++ show evenMorePrimes
 
+
+
+
     -- You can make a list of lists
     let multList = [[3,5,7],[11,13,17]]
     putStrLn $ "multList = " ++ show multList
 
     -- Get number of elements in the list
     let lenPrime = length morePrimes2
-     putStrLn $ "length morePrimes2 = " ++ show lenPrime
+    putStrLn $ "length morePrimes2 = " ++ show lenPrime
 
     -- Reverse the list
     let revPrime = reverse morePrimes2
@@ -48,9 +51,10 @@ list_examples = do
     putStrLn $ "null morePrimes2 = " ++ show isListEmpty
 
     -- Get the number in index X
-    --let zerothPrime = morePrimes2 !! 0
-    --putStrLn $ "morePrimes2 !! 0 = " ++ show zerothPrime
-    --let fifthPrime = morePrimes2 !! 5
-    --putStrLn $ "morePrimes2 !! 5 = " ++ show fifthPrime
+    let zerothPrime = morePrimes2 !! 0
+    putStrLn $ "morePrimes2 !! 0 = " ++ show zerothPrime
+    let fifthPrime = morePrimes2 !! 5
+    putStrLn $ "morePrimes2 !! 5 = " ++ show fifthPrime
+
 
     putStrLn "-----------------"
