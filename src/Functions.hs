@@ -37,7 +37,7 @@ function_examples = do
         whatAge 18 = "You can start voting"
         whatAge 21 = "You can start drinking in the US"
         -- The default
-        whatAge x = "Nothing Important"
+        whatAge _ = "Nothing Important"
     putStrLn $ "whatAge 18 = " ++ show (whatAge 18)
     putStrLn $ "whatAge 33 = " ++ show (whatAge 33)
 
