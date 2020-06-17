@@ -13,6 +13,8 @@ import Maths
 import Lists
 import Tuples
 import ConsoleIO
+import Functions
+import HigherOrderFunctions
 
 main = do
     let _data_type_examples = data_type_examples
@@ -27,7 +29,13 @@ main = do
     let _tuple_examples = tuple_examples
     _tuple_examples
 
-    let _console_io_examples = console_io_examples
-    _console_io_examples
+    --let _console_io_examples = console_io_examples
+    --_console_io_examples
+
+    let _function_examples = function_examples
+    _function_examples
+
+    let _higher_order_function_examples = higher_order_function_examples
+    _higher_order_function_examples
 
     putStrLn "Compete!"
