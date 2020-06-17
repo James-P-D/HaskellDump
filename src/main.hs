@@ -18,6 +18,7 @@ import HigherOrderFunctions
 import Lambdas
 import Conditionals
 import Enums
+import CustomTypes
 
 main = do
     let _data_type_examples = data_type_examples
@@ -50,4 +51,7 @@ main = do
     let _enum_examples = enum_examples
     _enum_examples
 
+    let _custom_type_examples = custom_type_examples
+    _custom_type_examples
+    
     putStrLn "Compete!"
