@@ -12,12 +12,9 @@ import DataTypes
 import Maths
 import Lists
 import Tuples
+import ConsoleIO
 
 main = do
-    --putStrLn "What's your name: "
-    --name <- getLine
-    --putStrLn ("Hello " ++ name)
-
     let _data_type_examples = data_type_examples
     _data_type_examples
 
@@ -29,5 +26,8 @@ main = do
 
     let _tuple_examples = tuple_examples
     _tuple_examples
+
+    let _console_io_examples = console_io_examples
+    _console_io_examples
 
     putStrLn "Compete!"
