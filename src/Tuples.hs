@@ -21,6 +21,10 @@ tuple_examples = do
     let bobsAge = snd bobSmith
     putStrLn $ "snd bobSmith = " ++ show bobsAge
 
+    -- If we don't care about a field, use '_'
+    let (_, justBobsAge) = bobSmith
+    putStrLn $ "justBobsAge = " ++ show justBobsAge
+
     -- zip can combine values into tuple pairs
     let names = ["Bob","Mary","Tom"]
     let addresses = ["123 Main","234 North","567 South"]
