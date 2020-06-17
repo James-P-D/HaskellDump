@@ -1,7 +1,6 @@
 module Enums where
 
-import Data.List
-
+-- Note we have to declare this up here, not in enum_examples
 data CakeType = Fruit | Chocolate | Vegan | Vegetarian deriving Show
 
 enum_examples = do
