@@ -11,6 +11,7 @@ import System.IO
 import DataTypes
 import Maths
 import Lists
+import Tuples
 
 main = do
     --putStrLn "What's your name: "
@@ -25,5 +26,8 @@ main = do
 
     let _list_examples = list_examples
     _list_examples
+
+    let _tuple_examples = tuple_examples
+    _tuple_examples
 
     putStrLn "Compete!"
