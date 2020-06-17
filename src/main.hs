@@ -15,6 +15,8 @@ import Tuples
 import ConsoleIO
 import Functions
 import HigherOrderFunctions
+import Lambdas
+import Conditionals
 
 main = do
     let _data_type_examples = data_type_examples
@@ -38,4 +40,10 @@ main = do
     let _higher_order_function_examples = higher_order_function_examples
     _higher_order_function_examples
 
+    let _lambda_examples = lambda_examples
+    _lambda_examples
+
+    let _conditional_examples = conditional_examples
+    _conditional_examples
+    
     putStrLn "Compete!"
