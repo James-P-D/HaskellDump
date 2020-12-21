@@ -4,7 +4,7 @@
 import System.IO
 
 main = do
-    putStrLn "Chapter 01 - Start!"
+    putStrLn "Chapter 02 - Start!"
     
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
     
@@ -31,19 +31,10 @@ main = do
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
     putStrLn "Exercise 1"
-    putStrLn "Doubling 4"
-    let double x = x * 2
-    print (double 4)
     
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
-    putStrLn "Exercise 3"
-    let product :: [Int] -> Int
-        product [] = 1
-        product (x:xs) = x * product xs
-    putStrLn "product [1..5]"
-    print (product [1..5])
     
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
     
-    putStrLn "Chapter 01 - Compete!"
+    putStrLn "Chapter 02 - Compete!"
