@@ -53,6 +53,8 @@ Typing up and exercises from Graham Hutton's book.
 * [chapter01.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter01.hs) All the basics  
 * [chapter02.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter02.hs) Lists mostly, basic recursion  
 * [chapter03.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter03.hs) Types and classes  
-* [chapter04.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter03.hs) Functions  
+* [chapter04.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter04.hs) Functions  
+* [chapter05.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter05.hs) List comprehension  
+
 
 
