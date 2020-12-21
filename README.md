@@ -43,16 +43,6 @@ Mostly taken from [Derek Banas' video](https://www.youtube.com/watch?v=02_H3LjqM
 * [Conditionals.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Conditionals.hs)  
 * [Enums.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Enums.hs)  
 * [CustomTypes.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/CustomTypes.hs)  
-<!--
-* [DataTypes.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/DataTypes.hs)  
-* [DataTypes.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/DataTypes.hs)  
-* [DataTypes.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/DataTypes.hs)  
-* [DataTypes.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/DataTypes.hs)  
-* [DataTypes.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/DataTypes.hs)  
-* [DataTypes.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/DataTypes.hs)  
-* [DataTypes.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/DataTypes.hs)  
-* [DataTypes.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/DataTypes.hs)  
--->
 
 ## Programming in Haskell by Graham Hutton
 
@@ -62,5 +52,7 @@ Typing up and exercises from Graham Hutton's book.
 
 * [chapter01.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter01.hs) All the basics  
 * [chapter02.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter02.hs) Lists mostly, basic recursion  
-* [chapter03.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter03.hs) 
+* [chapter03.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter03.hs) Types and classes  
+* [chapter04.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter03.hs) Functions  
+
 
