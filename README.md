@@ -59,3 +59,5 @@ Mostly taken from [Derek Banas' video](https://www.youtube.com/watch?v=02_H3LjqM
 
 ![Programming in Haskell book cover](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/pih.jpg)
 
+* [chapter01.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter01.hs) All the basics  
+

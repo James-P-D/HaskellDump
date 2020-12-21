@@ -1,3 +1,6 @@
+-- ghc chapter01.hs
+-- ./chapter01.exe
+
 import System.IO
 
 main = do
