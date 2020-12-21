@@ -35,7 +35,6 @@ Mostly taken from [Derek Banas' video](https://www.youtube.com/watch?v=02_H3LjqM
 * [DataTypes.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/DataTypes.hs)  
 * [Maths.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Maths.hs)  
 * [Lists.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Lists.hs)  
-* WHAT ABOUT LIST COMPREHENSION?
 * [Tuples.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Tuples.hs)  
 * [ConsoleIO.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/ConsoleIO.hs)  
 * [Functions.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Functions.hs)  
@@ -57,7 +56,11 @@ Mostly taken from [Derek Banas' video](https://www.youtube.com/watch?v=02_H3LjqM
 
 ## Programming in Haskell by Graham Hutton
 
+Typing up and exercises from Graham Hutton's book.
+
 ![Programming in Haskell book cover](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/pih.jpg)
 
 * [chapter01.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter01.hs) All the basics  
+* [chapter02.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter02.hs) Lists mostly, basic recursion  
+* [chapter03.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter03.hs) 
 

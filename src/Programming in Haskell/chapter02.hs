@@ -1,5 +1,5 @@
--- ghc chapter01.hs
--- ./chapter01.exe
+-- ghc chapter02.hs
+-- ./chapter02.exe
 
 import System.IO
 
@@ -8,33 +8,70 @@ main = do
     
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
     
-    putStrLn "Total of 1 to 10"
-    let total = sum[1..10]                                  -- List comprehension
-    print total
+    putStrLn "head of [1..10]"    
+    print (head [1..10])
+    putStrLn "tail of [1..10]"    
+    print (tail [1..10])
+    putStrLn "!! to get n-th element (zero-indexed), so [1..10] !! 2 gives us.."
+    print ([1..10] !! 2)
+    putStrLn "take 3 [1..10]"
+    print (take 3 [1..10])
+    putStrLn "drop 3 [1..10]"
+    print (drop 3 [1..10])
+    putStrLn "length [1..10]"
+    print (length [1..10])
+    putStrLn "++ to concatonate lists, so [1..10] ++ [20..30] give us.."
+    print ([1..10] ++ [20..30])
+    putStrLn "revese [1..10]"
+    print (reverse [1..10])
     
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
     
-    putStrLn "Sorting"
-    let qsort :: [Int] -> [Int]                             -- qsort is array-of-int to array-of-int
-        qsort [] = []                                       -- base case
-        qsort (x:xs) = qsort smaller ++ [x] ++ qsort larger -- non-base case
-                       where
-                           smaller = [a | a <- xs, a <= x]
-                           larger  = [b | b <- xs, b > x]
-    let unsorted = [3, 10, 6, 2, 8, 5, 7, 4, 1, 9]                           
-    let sorted = qsort unsorted
-    putStrLn "Unsorted"
-    print unsorted
-    putStrLn "Sorted"
-    print sorted
+    putStrLn "Factorial 5"
+    let factorial n = product [1..n]
+    print (factorial 5)
     
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
-    putStrLn "Exercise 1"
+    putStrLn "Mean average of [1..10]"
+    let mean_average xs = sum xs `div` length xs
+    print (mean_average [1..10])
+
+    -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+    -- Few notes on indentation
+
+    let a = b + c
+            where
+                b = 1 -- b and c are local to a
+                c = 2
+    let d = a * 2
+    
+    -- we can also use braces to further emphasise scope:
+    let a = b + c
+            where
+               {b = 1; -- b and c are local to a
+                c = 2};
+    let d = a * 2
+
+    -- ..or even write it on a single line:
+    let a = b + c where {b = 1; c = 2};
+    let d = a * 2;
     
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
 
+    putStrLn "Exercise 4"
+    putStrLn "Get last element of [1..10]"
+    print (last [1..10])
+    print (head (reverse [1..10]))
+
+    -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+    putStrLn "Exercise 5"
+    putStrLn "init removes last element"
+    print (init [1..10])
+    print (reverse (tail (reverse [1..10])))
     
     -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
-    
+
     putStrLn "Chapter 02 - Compete!"
