@@ -54,3 +54,8 @@ Mostly taken from [Derek Banas' video](https://www.youtube.com/watch?v=02_H3LjqM
 * [DataTypes.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/DataTypes.hs)  
 * [DataTypes.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/DataTypes.hs)  
 -->
+
+## Programming in Haskell by Graham Hutton
+
+![Programming in Haskell book cover](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/pih.jpg)
+
