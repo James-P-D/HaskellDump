@@ -57,6 +57,7 @@ Typing up and exercises from Graham Hutton's book.
 * [chapter05.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter05.hs) - List comprehension  
 * [chapter06.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter06.hs) - Recursion
 * [chapter07.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter07.hs) - Higher order functions
+* [chapter08.hs](https://github.com/James-P-D/HaskellDump/blob/master/src/Programming%20in%20Haskell/chapter08.hs) - Types and classes
 
 
 
